@@ -10,6 +10,7 @@ print("Pushing pandas_prac to GitHub")
 import pandas as pd
 
 data = {
+
     'EmployeeID': [101, 102, 103, 104],
     'Name': ['Alice', 'Bob', 'Charlie', 'Diana'],
     'Department': ['HR', 'Finance', 'IT', 'Marketing'],
@@ -21,7 +22,12 @@ df = pd.DataFrame(data)
 
 print("full data frame ")
 print(df)
+print("\n")
+ 
+print(df[['Name', 'Salary']])   
 
-
+print("\n")
+      
+print(df[df['Salary'] > 70000])  
 
 
