@@ -1,0 +1,7 @@
+EmpID,Name,Dept,Salary,HireDate
+101,Alice,HR,65000,2021-05-10
+102,Bob,,85000,2020-12-01
+103,Charlie,Finance,999999,invalid_date
+104,Diana,IT,,2022-01-15
+105,Edward,Marketing,30000,2019-06-30
+106,Frank,IT,19000,2023-03-01
