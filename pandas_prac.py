@@ -1,14 +1,10 @@
-<<<<<<< HEAD
-
-
 print("hello world")
 print("Testing Git push")
-=======
+
 """
 print("Testing Git push")
 print("Final test from correct file")
 print("Pushing pandas_prac to GitHub")
-
 """
 
 #pandas
@@ -16,7 +12,6 @@ print("Pushing pandas_prac to GitHub")
 import pandas as pd
 
 data = {
-
     'EmployeeID': [101, 102, 103, 104],
     'Name': ['Alice', 'Bob', 'Charlie', 'Diana'],
     'Department': ['HR', 'Finance', 'IT', 'Marketing'],
@@ -66,6 +61,21 @@ print("Loaded Data from cleaned_data.csv:")
 print(df_new.head())# its  like a print first few lines , like .head(3)  -> first 3 lines 
 print("Ended task -2")
 
+#task 3 
+
+print("\nTask 3: Dropping 'Bonus' column")
+if "Bonus" in df.columns:
+    df.drop("Bonus", axis=1, inplace=True)
+    print("Updated DataFrame after dropping 'Bonus':")
+    print(df)
+else:
+    print("Bonus column not found.")
 
 
->>>>>>> 8fac6914946ae906c85146939a143c54f58c8d93
+print(df)
+
+
+
+
+
+

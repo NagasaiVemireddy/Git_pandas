@@ -1,13 +1,5 @@
-<<<<<<< HEAD
-EmployeeID,Name,Department,Salary,Bonus,Total_pay
-101,Alice,HR,60000,6000.0,66000.0
-102,Bob,Finance,70000,7000.0,77000.0
-103,Charlie,IT,80000,8000.0,88000.0
-104,Diana,Marketing,75000,7500.0,82500.0
-=======
 EmployeeID,Name,Department,Base_Salary,Total_pay
 101,Alice,HR,60000,66000.0
 102,Bob,Finance,70000,77000.0
 103,Charlie,IT,80000,88000.0
 104,Diana,Marketing,75000,82500.0
->>>>>>> 274d759 (Completed Task 2: Cleaned data using pandas)
